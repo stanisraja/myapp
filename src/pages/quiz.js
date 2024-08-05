@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const QuizPage = () => {
   return (
     <div>
       <h1>qUIZ pAGE</h1>
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default QuizPage;
