@@ -1,0 +1,101 @@
+/* src/Components/Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #e69999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .home-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .topic-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .topic-card {
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    flex: auto;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(236, 109, 109, 0.15);
+    border: 2px dotted rgb(133, 3, 3);
+    gap: 10px;
+    margin: 20px;
+    text-shadow: #e69999;
+  }
+
+  .topic-image {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .topic {
+    position: relative;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    flex: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .topic:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .topic h2 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+  }
+  
+  .topic p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .flashing {
+    animation: flash 1s infinite alternate;
+  }
+  
+  @keyframes flash {
+    from {
+      background-color: #fff;
+    }
+    to {
+      background-color: #f0e68c;
+    }
+  }
+  
