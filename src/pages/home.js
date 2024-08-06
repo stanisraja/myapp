@@ -8,17 +8,14 @@ const Home = () => {
 
   return (
     <div className="home-page">
-      <img src="../img/Logo.png" alt="logo" />
+      <img src="./../../public/img/Logo.png" alt="logo" />
       <div className="topics-container">
         {topics.map((topic) => (
           <Link
-            to={`/quiz/${topic.id}`}
-            key={topic.id}
+            to={`${topic.name}`}
             className="topic-card"
-
           >
               <img src={`https://picsum.photos/200?random=${topic.id}`} alt={topic.name} />
-
           </Link>
         ))}
         
