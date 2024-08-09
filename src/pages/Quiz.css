@@ -1,8 +1,10 @@
+
+
 .container{
     width: 640px;
     margin: auto;
     margin-top: 150px;
-    background: white;
+    background: rgb(231, 225, 225);
     color: #262626;
     display: flex;
     flex-direction: column;
@@ -10,6 +12,7 @@
     border-radius: 10px;
     padding: 40px 50px;
 }
+
 .container hr{
     height: 2px;
     border: none;
@@ -47,9 +50,16 @@
 }
 .container .correct{
     background: #dffff2;
-    border: #00d397;
+    border: #09916a;
 }
 .container .wrong{
-    background: #FFEBEB;
+    background: #c46e6e;
     border-color: #d80b0b;
 }
+
+.logo img{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    align-items: center;
+  }

@@ -51,7 +51,7 @@ body {
     margin-top: 10px;
   }
   .quiz-button {
-    background-color: #90dee9;
+    background-color: #b1eef7;
     height: 5rem;
     width: 7rem;
     border-radius: 24% 64% 77% 26% / 56% 38% 62% 44% ;
@@ -71,7 +71,7 @@ body {
   }
 
   .weather-button {
-    background-color: #90dee9;
+    background-color: #b1eef7;
     height: 5rem;
     width: 9rem;
     border-radius: 24% 64% 77% 26% / 56% 38% 62% 44% ;
@@ -82,7 +82,7 @@ body {
     margin: auto;
   }
   .faftube-button {
-    background-color: #90dee9;
+    background-color: #b1eef7;
     height: 5rem;
     width: 9rem;
     border-radius: 24% 64% 77% 26% / 56% 38% 62% 44% ;

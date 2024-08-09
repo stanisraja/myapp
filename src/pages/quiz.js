@@ -68,7 +68,10 @@ const QuizPage = () => {
 
   return (
     <div className='container'>
-      <h1>Quiz App</h1>
+      <div className="logo">
+        <img align="center" src="../file.png" alt="1Page.Click" />
+      </div>
+      <h1 align="center">Quiz App</h1>
       <hr />
       {result ? (
         <>
