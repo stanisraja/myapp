@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Quiz from './pages/quiz';
+import Weather from './pages/weather';
 
 import { createBrowserRouter } from 'react-router-dom';
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/quiz",
     element: <Quiz/>,
+  },
+  {
+    path: "/weather",
+    element: <Weather/>,
   }
 ]);
 

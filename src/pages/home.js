@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'; // Ensure the path to your CSS file is correct
 import { Link } from 'react-router-dom';
 import './soon.css';
+import './weather.css';
 
 const Home = () => {
 
@@ -14,7 +15,7 @@ const Home = () => {
         <Link to={`Quiz`}> 
           <button className='quiz-button' font-family="Kanit">Quiz</button>
         </Link> 
-        <Link to={`Soon`}> 
+        <Link to={`Weather`}> 
           <button className='weather-button'font-family="Kanit">Weather</button>
         </Link> 
         <Link to={`Soon`}> 
