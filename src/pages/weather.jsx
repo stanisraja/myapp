@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './weather.css';
 
 const apiKey = "4fcb5ed9cde665455d65c148d4f36d9d";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";

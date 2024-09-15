@@ -67,7 +67,7 @@ const QuizPage = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container1'>
       <div className="logo">
         <img align="center" src="../file.png" alt="1Page.Click" />
       </div>

@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Quiz from './pages/quiz';
 import Weather from './pages/weather';
+import Tube from './pages/Tube/Tube';
 
 import { createBrowserRouter } from 'react-router-dom';
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/weather",
     element: <Weather/>,
+  },
+  {
+    path: "/faftube",
+    element: <Tube/>,
   }
 ]);
 

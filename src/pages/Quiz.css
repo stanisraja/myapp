@@ -1,6 +1,6 @@
 
 
-.container{
+.container1{
     width: 640px;
     margin: auto;
     margin-top: 150px;
@@ -13,16 +13,16 @@
     padding: 40px 50px;
 }
 
-.container hr{
+.container1 hr{
     height: 2px;
     border: none;
     background: #707070;
 }
-.container h2{
+.container1 h2{
     font-size: 20px;
     font-weight: 500;
 }
-.container ul li{
+.container1 ul li{
     display: flex;
     align-items: center;
     height: 70px;
@@ -33,7 +33,7 @@
     font-size: 20px;
     cursor: pointer;
 }
-.container button{
+.container1 button{
     margin: auto;
     width: 250px;
     height: 65px;
@@ -44,15 +44,15 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.container .index {
+.container1 .index {
     margin: auto;
     font-size: 18px;
 }
-.container .correct{
+.container1 .correct{
     background: #dffff2;
     border: #09916a;
 }
-.container .wrong{
+.container1 .wrong{
     background: #c46e6e;
     border-color: #d80b0b;
 }

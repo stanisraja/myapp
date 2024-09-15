@@ -1,4 +1,4 @@
-import data from './../data.js';
+import data from '../data1.js';
 
 export const getRandomItems = (numberOfItems) => {
   const shuffleArray = (array) => {

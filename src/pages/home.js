@@ -18,10 +18,9 @@ const Home = () => {
         <Link to={`Weather`}> 
           <button className='weather-button'font-family="Kanit">Weather</button>
         </Link> 
-        <Link to={`Soon`}> 
+        <Link to={`Faftube`}> 
           <button className='faftube-button'font-family="Kanit">FafTube</button>
         </Link> 
-
       </div>
     </div>
   );
