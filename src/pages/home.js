@@ -22,7 +22,7 @@ const Home = () => {
           <button className='faftube-button'font-family="Kanit">FafTube</button>
         </Link> 
       </div>
-    </div>
+
     <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
     <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
     <df-messenger
@@ -47,6 +47,7 @@ const Home = () => {
         right: 16px;
       }
     </style>
+    </div>
   );
   
 };
