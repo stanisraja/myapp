@@ -34,19 +34,6 @@ const Home = () => {
        chat-title="Jolly">
       </df-messenger-chat-bubble>
     </df-messenger>
-    <style>
-      df-messenger {
-        z-index: 999;
-        position: fixed;
-        --df-messenger-font-color: #000;
-        --df-messenger-font-family: Google Sans;
-        --df-messenger-chat-background: #f3f6fc;
-        --df-messenger-message-user-background: #d3e3fd;
-        --df-messenger-message-bot-background: #fff;
-        bottom: 16px;
-        right: 16px;
-      }
-    </style>
     </div>
   );
   
