@@ -50,7 +50,7 @@ const Home = () => {
       <style>
         {`
           df-messenger {
-            z-index: 999;
+            z-index: 9999;
             position: fixed;
             --df-messenger-font-color: #000;
             --df-messenger-font-family: Google Sans;
@@ -59,6 +59,9 @@ const Home = () => {
             --df-messenger-message-bot-background: #fff;
             bottom: 16px;
             right: 16px;
+            display: block;
+            width: 400px; /* Adjust as needed */
+            height: 600px; /* Adjust as needed */
           }
         `}
       </style>
