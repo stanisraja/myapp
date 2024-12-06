@@ -155,5 +155,8 @@ body {
       background-color: #f0e68c;
     }
   }
-  
+
+df-messenger {
+  all: unset; /* Resets styles */
+}
   
