@@ -158,6 +158,9 @@ body {
 
 df-messenger {
   all: unset; /* Resets styles */
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
 }
 
 df-messenger-chat-bubble {
@@ -170,4 +173,7 @@ df-messenger-chat-bubble {
   display: flex;
   justify-content: center;
   align-items: center;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
 }
